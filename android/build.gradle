@@ -6,6 +6,8 @@ buildscript {
         minSdkVersion = 21
         compileSdkVersion = 30
         targetSdkVersion = 30
+        googlePlayServicesVersion = "16.+"
+        firebaseVersion = "17.3.4"
     }
     repositories {
         google()
@@ -38,3 +40,5 @@ allprojects {
         maven { url 'https://www.jitpack.io' }
     }
 }
+
+
